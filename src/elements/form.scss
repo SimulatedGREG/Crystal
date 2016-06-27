@@ -1,0 +1,57 @@
+.use-form {
+  input,
+  textarea { display: block; }
+
+  input { height: 44px; }
+
+  input:not([type="checkbox"]),
+  textarea {
+    border: 1px solid rgba($black, .2);
+    border-radius: 2px;
+    font-weight: 300;
+    max-width: 320px;
+    outline: none;
+    padding: 12px;
+    width: 320px;
+  }
+
+  input:not([type="checkbox"]):focus,
+  textarea:focus {
+    border-color: rgba($blue, .65) !important;
+    box-shadow: 0px 1px 6px 0px rgba($black, 0.24) !important;
+  }
+
+  label:not(.checkbox-text) {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    margin-top: 12px;
+    text-transform: uppercase;
+  }
+
+  input[type="checkbox"] { vertical-align: baseline; }
+
+  input:not([type="checkbox"]):hover,
+  textarea:hover {
+    border-color: rgba($blue, .5);
+    box-shadow: 0px 1px 6px 0px rgba($black, 0.12);
+  }
+
+  button {
+    border: 1px solid rgba($black, .2);
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    margin-top: 14px;
+    padding: 12px 16px;
+    text-transform: uppercase;
+  }
+
+  button.primary {
+    background-color: rgb(248, 57, 126);
+    color: white;
+  }
+
+}

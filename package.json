@@ -1,0 +1,21 @@
+{
+  "name": "dawn.css",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --colors --port 9080"
+  },
+  "author": "Greg Holguin <simulatedgreg@gmail.com> (https://github.com/SimulatedGREG)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
